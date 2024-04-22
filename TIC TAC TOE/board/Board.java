@@ -17,7 +17,8 @@ public class Board {
         
     }
 
-    public void setDefaultSymbol(char symbol) { // Another way to intialise with default Symbol
+    public void setDefaultSymbol(char symbol) { 
+        // Another way to intialise with default Symbol
         for(int i=0;i<size;i++) {
             for(int j=0;j<size; j++) {
                 matrix[i][j] = symbol;
